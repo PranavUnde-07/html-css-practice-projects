@@ -1,7 +1,6 @@
 # HTML & CSS Practice Projects
 
-This repository contains 10 beginner-friendly HTML and CSS projects based on the [GeeksforGeeks article](https://www.geeksforgeeks.org/top-10-projects-for-beginners-to-practice-html-and-css-skills/).
-
+This repository contains 10 beginner-friendly HTML and CSS projects 
 ## 📋 Projects List
 
 1. **Login Form**
