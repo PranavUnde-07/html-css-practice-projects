@@ -21,7 +21,7 @@ As part of my web development learning journey, I wanted to:
 
 | 🔢 No. | Project Title             | Status          | Live Link                |
 |:-----:|----------------------------|------------------|--------------------------|
-| 01    | Login Form                | ✅ Done          | [View Live](#) *(coming soon)* |
+| 01    | Login Form                | ✅ Done          | [View Live](https://PranavUnde-07.github.io/html-css-practice-projects 01-Login-Form/) |
 | 02    | Survey Form               | 🔄 In Progress   | —                        |
 | 03    | Tribute Page              | 🔄 In Progress   | —                        |
 | 04    | Technical Documentation   | ⏳ Planned       | —                        |
