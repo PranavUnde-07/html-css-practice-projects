@@ -5,10 +5,13 @@
   <title>02-Survey-Form</title>
   <link rel='stylesheet' href='style2.css'>
 </head>
+
 <body>
   <div class="form-wrapper">
       <h1>Survey Form</h1>
+
    <!-- Form starts -->
+
     <form id="form">
       <div class="form-control">
         <label for="name">Name</label>
@@ -19,10 +22,12 @@
       <label for="email">Email</label>
       <input type="email" id="email" placeholder="Enter your email" required autocomplete="off">
   </div>
+
   <div class="form-control">
       <label for="age">Age</label>
       <input type="number" id="age" placeholder="Enter your age" required autocomplete="off">
   </div>
+
   <div class="form-control">
       <label for="occupation">Occupation</label>
       <select id="occupation" required autocomplete="off">
@@ -32,6 +37,7 @@
         <option value="unemployed">Unemployed</option>
       </select>
   </div>
+
   <div class="form-control">
       <label>Would you recommend this course to your friend?</label>
         <label for="recommed-1">
@@ -80,17 +86,21 @@
                 <input type="checkbox" name="inp">Spring
             </label>
         </div>
+
   <div class="form-control">
       <label for="comments">Any comments or suggestions?</label>
       <textarea id="comments" placeholder="Enter your comments here" required></textarea>
   </div>
+
   <div class="form-control">
       <button type="submit">Submit</button>
       <p class="register">Want to register? <a href="#">Register here</a></p>
+</div>
 
-  </div>
   </form>
     <!-- Form ends -->
   </div>
-</body>
+
+ </body>
+
 </html>
