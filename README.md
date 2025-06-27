@@ -21,8 +21,8 @@ As part of my web development learning journey, I wanted to:
 
 | 🔢 No. | Project Title             | Status          | Live Link                |
 |:-----:|----------------------------|------------------|--------------------------|
-| 01    | Login Form                | ✅ Done          |https://pranavunde-07.github.io/html-css-practice-projects/01-Login-Form/ |
-| 02    | Survey Form               | 🔄 In Progress   | —                        |
+| 01    | Login Form                | ✅ Done          |[Live Demo](https://pranavunde-07.github.io/html-css-practice-projects/01-Login-Form/) |
+| 02    | Survey Form               | ✅ Done          |[Live Demo](https://pranavunde-07.github.io/html-css-practice-projects/02-Survey-Form/)                         |
 | 03    | Tribute Page              | 🔄 In Progress   | —                        |
 | 04    | Technical Documentation   | ⏳ Planned       | —                        |
 | 05    | Portfolio Page            | ⏳ Planned       | —                        |
