@@ -1,139 +1,136 @@
-/* Add wrapper styles to center and size the whole form block */
-.form-wrapper {
-  width: 100%;
-  max-width: 700px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-/* Reset */
+/* Reset everything */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Apply Google-style font */
 body {
-  background-color: #f3effd; /* Light purple background */
   font-family: 'Google Sans', Roboto, Arial, sans-serif;
-  padding: 40px 20px;
+  background-color: #f3effd; /* light purple background */
   display: flex;
   justify-content: center;
+  padding: 40px 16px;
 }
 
-/* Entire form wrapper */
-form {
+/* Outer wrapper to center everything */
+.form-wrapper {
   width: 100%;
-  max-width: 700px;
+  max-width: 720px;
+  margin: 0 auto; /* ✅ Center the entire wrapper */
+  padding: 0 16px;
 }
 
-/* Title/Header Section */
+/* Updated h1 block */
 h1 {
   font-size: 28px;
   color: #202124;
   background-color: #fff;
   padding: 24px;
-  border-top: 8px solid #673ab7; /* Purple top bar */
+  border-top: 8px solid #673ab7;
+  border-radius: 10px 10px 0 0;
+  box-shadow: 0 1px 3px rgba(60, 64, 67, 0.15);
+  margin: 0 auto 24px auto;  /* ✅ Center the block itself */
+  text-align: center;
+  max-width: 720px; /* ✅ Make it same width as form */
+}
+
+/* Header */
+h1 {
+  font-size: 28px;
+  color: #202124;
+  background-color: #fff;
+  padding: 24px;
+  border-top: 8px solid #673ab7; /* purple top border */
   border-radius: 10px 10px 0 0;
   box-shadow: 0 1px 3px rgba(60, 64, 67, 0.15);
   margin-bottom: 16px;
+  text-align: center;
 }
 
-/* Each form group styled like a card */
+/* Card-style form sections */
+form {
+  background-color: transparent;
+}
+
 .form-control {
   background-color: #fff;
   border-radius: 10px;
   padding: 20px 24px;
   margin-bottom: 20px;
   box-shadow: 0 1px 3px rgba(60, 64, 67, 0.15);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
-/* Labels */
+/* Input labels */
 label {
-  display: block;
-  font-weight: 500;
   font-size: 15px;
+  font-weight: 500;
   color: #202124;
-  margin-bottom: 10px;
 }
 
 small {
   font-size: 13px;
   color: #5f6368;
-  margin-left: 4px;
 }
 
-/* Input fields */
+/* Input fields and textarea */
 input[type="text"],
 input[type="email"],
 input[type="number"],
-textarea,
-select {
-  width: 100%;
+select,
+textarea {
   padding: 12px;
+  font-size: 15px;
   border: none;
   border-bottom: 2px solid #dadce0;
-  font-size: 16px;
-  background-color: transparent;
-  transition: border-color 0.2s;
+  background: transparent;
+  transition: border-bottom 0.2s;
 }
 
 input:focus,
 textarea:focus,
 select:focus {
   outline: none;
-  border-bottom-color: #673ab7;
+  border-bottom: 2px solid #673ab7;
 }
 
-/* Radios & Checkboxes */
+/* Radio & Checkbox style */
 input[type="radio"],
 input[type="checkbox"] {
-  margin-right: 10px;
   transform: scale(1.2);
   accent-color: #673ab7;
+  margin-right: 10px;
 }
 
-/* Make all .form-control blocks consistent and centered */
-.form-control {
-  background-color: #fff;
-  border-radius: 10px;
-  padding: 20px 24px;
-  margin: 20px 0;
-  box-shadow: 0 1px 3px rgba(60, 64, 67, 0.15);
+.form-control label[for^="recommed"],
+.form-control label[for^="inp"] {
+  font-weight: normal;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start; /* This keeps label/input left aligned inside centered container */
-}
-
-/* Make comment box (textarea) full width */
-textarea {
-  width: 100%;
-  resize: vertical;
-  min-height: 80px;
-  font-size: 15px;
-  padding: 12px;
-  border: none;
-  border-bottom: 2px solid #dadce0;
-  background: transparent;
-}
-
-textarea:focus {
-  border-bottom-color: #673ab7;
-  outline: none;
-}
-
-/* Submit section - center everything and align side by side */
-.form-submit {
-  flex-direction: row;       /* make it horizontal */
-  justify-content: center;   /* center items together */
   align-items: center;
-  gap: 20px;
+  color: #3c4043;
+}
+
+/* Comment box */
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+/* Submit & register section aligned */
+.form-control:last-of-type {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   flex-wrap: wrap;
 }
 
-/* Submit button styling */
-.form-submit button {
+/* Submit button */
+button {
   background-color: #673ab7;
   color: white;
   padding: 12px 24px;
@@ -141,10 +138,14 @@ textarea:focus {
   border: none;
   border-radius: 6px;
   cursor: pointer;
-  transition: background-color 0.2s;
+  transition: background-color 0.2s ease;
 }
 
-/* Register message */
+button:hover {
+  background-color: #5e35b1;
+}
+
+/* Register text */
 .register {
   font-size: 14px;
   color: #5f6368;
@@ -158,4 +159,21 @@ textarea:focus {
 
 .register a:hover {
   text-decoration: underline;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  .form-control:last-of-type {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 16px;
+  }
+
+  button {
+    width: 100%;
+  }
+
+  .register {
+    text-align: center;
+  }
 }
