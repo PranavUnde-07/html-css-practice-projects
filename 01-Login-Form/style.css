@@ -1,7 +1,7 @@
 /* Apply background and center content */
 body {
   font-family: 'Segoe UI', sans-serif;
-  background-color: #b41919;
+  background-color: #bbfffc;
   display: flex;
   justify-content: center;
   align-items: center;
