@@ -6,6 +6,47 @@
   <link rel='stylesheet' href='style.css'>
 </head>
 <body>
-  <h1>02 Survey Form</h1>
+  <div class="container">
+    <h1>02 Survey Form</h1>
+    <form autocomplete="off">
+      <label for="name">name</label>
+      <input type="text" id="name" placeholder="Enter your name" required autocomplete="off">
+
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="Enter your email" required autocomplete="off">
+
+      <label for="Age">Age</label>
+      <input type="number" id="age" placeholder="Enter your age" required autocomplete="off">
+
+      <label for="Occupation">Occupation</label>
+      <select id="occupation" required autocomplete="off">
+        <option value="" disabled selected>Select your occupation</option>
+        <option value="student">Student</option>
+        <option value="employed">Employed</option>
+        <option value="unemployed">Unemployed</option>
+      </select>
+
+      <label for="Recommendation">Would you recommend this course to a friend?</label>
+      <input type="radio" id="recommendation-no" name="recommendation" value="no" required>
+      <label for="recommendation-no">No</label>
+      <input type="radio" id="recommendation-yes" name="recommendation" value="yes" required>
+      <label for="recommendation-yes">Yes</label>
+
+<label for="language">Preferred Programming Language</label>
+      <select id="language" required autocomplete="off">
+        <option value="" disabled selected>Select your preferred language</option>
+        <option value="python">Python</option>
+        <option value="javascript">JavaScript</option>
+        <option value="java">Java</option>
+        <option value="csharp">C#</option>
+      </select>
+
+      <label for="comments">Comments</label>
+      <textarea id="comments" placeholder="Enter your comments or feedback" required></textarea>
+
+      <button type="submit">Submit</button>
+      <p class="register">Want to register? <a href="#">Register here</a></p>
+    </form>
+  </div>
 </body>
 </html>
