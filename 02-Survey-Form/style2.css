@@ -1,11 +1,10 @@
-/* Reset everything */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Apply Google-style font */
+/* Applying Google-style font */
 body {
   font-family: 'Google Sans', Roboto, Arial, sans-serif;
   background-color: #f3effd; /* light purple background */
@@ -22,20 +21,6 @@ body {
   padding: 0 16px;
 }
 
-/* Updated h1 block */
-h1 {
-  font-size: 28px;
-  color: #202124;
-  background-color: #fff;
-  padding: 24px;
-  border-top: 8px solid #673ab7;
-  border-radius: 10px 10px 0 0;
-  box-shadow: 0 1px 3px rgba(60, 64, 67, 0.15);
-  margin: 0 auto 24px auto;  /* ✅ Center the block itself */
-  text-align: center;
-  max-width: 720px; /* ✅ Make it same width as form */
-}
-
 /* Header */
 h1 {
   font-size: 28px;
@@ -47,6 +32,7 @@ h1 {
   box-shadow: 0 1px 3px rgba(60, 64, 67, 0.15);
   margin-bottom: 16px;
   text-align: center;
+  max-width: 720px;
 }
 
 /* Card-style form sections */
