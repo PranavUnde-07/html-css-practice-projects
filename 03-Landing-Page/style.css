@@ -153,3 +153,49 @@ footer {
   text-align: center;
   padding: 20px;
 }
+
+
+
+/* 📱 Mobile Responsive */
+@media (max-width: 768px) {
+
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .Main-image img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .feature-list > .feature-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature {
+    width: 100%;
+    max-width: 90%;
+  }
+
+  .testimonial {
+    width: 100%;
+    max-width: 90%;
+  }
+}
+/* End of style.css */
