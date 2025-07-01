@@ -1,6 +1,155 @@
-body {
-  font-family: Arial, sans-serif;
+/* style.css */
+
+/* Reset and base styles */
+* {
   margin: 0;
   padding: 0;
-  background-color: #f5f5f5;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* Header styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.button {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #0056b3;
+  color: white;
+}
+
+/* Main Section */
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 10%;
+  background-color: #e8f0ff;
+}
+
+.MainContent {
+  flex: 1;
+  min-width: 280px;
+  margin-bottom: 20px;
+}
+
+.MainContent h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.MainContent p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.Main-image {
+  flex: 1;
+  min-width: 280px;
+  text-align: center;
+}
+
+.Main-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Features Section */
+.feature-list {
+  padding: 60px 10%;
+  text-align: center;
+}
+
+.feature-list > h2 {
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+.feature {
+  background-color: #fff;
+  padding: 20px;
+  margin: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  flex: 1;
+  min-width: 250px;
+}
+
+/* Feature container */
+.feature-list > .feature-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Testimonials Section */
+.testimonials {
+  background: #f0f4f8;
+  padding: 60px 10%;
+  text-align: center;
+}
+
+.testimonials h2 {
+  margin-bottom: 20px;
+}
+
+.testimonial {
+  background: white;
+  padding: 20px;
+  margin: 10px auto;
+  max-width: 600px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+/* Footer */
+footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
 }
