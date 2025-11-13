@@ -23,14 +23,14 @@ As part of my web development learning journey, I wanted to:
 |:-----:|----------------------------|------------------|--------------------------|
 | 01    | Login Form                | ✅ Done          |[Live Demo](https://pranavunde-07.github.io/html-css-practice-projects/01-Login-Form/) |
 | 02    | Survey Form               | ✅ Done          |[Live Demo](https://pranavunde-07.github.io/html-css-practice-projects/02-Survey-Form/)                         |
-| 03    | Tribute Page              | ✅ Done          |[Live Demo](https://pranavunde-07.github.io/html-css-practice-projects/03-Landing-Page/)                        |
-| 04    | Technical Documentation   | ⏳ Planned       | —                        |
-| 05    | Portfolio Page            | ⏳ Planned       | —                        |
-| 06    | Product Landing Page      | ⏳ Planned       | —                        |
-| 07    | Photography Website       | ⏳ Planned       | —                        |
-| 08    | Interior Design Website   | ⏳ Planned       | —                        |
-| 09    | Food Blog Website         | ⏳ Planned       | —                        |
-| 10    | Web Developer Portfolio   | ⏳ Planned       | —                        |
+| 03    | Landing Page              | ✅ Done          |[Live Demo](https://pranavunde-07.github.io/html-css-practice-projects/03-Landing-Page/)                        |
+| 04    | Technical Documentation   | ✅ Done          |[Live Demo](https://pranavunde-07.github.io/html-css-practice-projects/04-Technical-Documentation/)             |
+| 05    | Portfolio Page            | ✅ Done          |[Live Demo](https://pranavunde-07.github.io/html-css-practice-projects/05-Personal-Portfolio/)                  |
+| 06    | Tribute Page              | ✅ Done          |[Live Demo](https://pranavunde-07.github.io/html-css-practice-projects/06-Tribute-Page/)                        |
+| 07    | Photography Website       | ✅ Done          |[Live Demo](https://pranavunde-07.github.io/html-css-practice-projects/08-Photography-Website/)                 |
+| 08    | Interior Design Website   | ✅ Done          |[Live Demo](https://pranavunde-07.github.io/html-css-practice-projects/09-Interior-Design-Website/)             |
+| 09    | Food Blog Website         | ✅ Done          |[Live Demo](https://pranavunde-07.github.io/html-css-practice-projects/10-Food-Blog-Website/)                   |
+| 10    | Product Landing Page      | ✅ Done          |[Live Demo](https://pranavunde-07.github.io/html-css-practice-projects/07-Product-Landing-Page/)                |
 
 > ✨ As I complete each project, I will update this table with live GitHub Pages links.
 
