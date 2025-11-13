@@ -1,11 +1,125 @@
-<!DOCTYPE html>
-<html lang='en'>
+<!doctype html>
+<html lang="en">
 <head>
-  <meta charset='UTF-8'>
-  <title>08-Photography-Website</title>
-  <link rel='stylesheet' href='style.css'>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio — Photography</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>08 Photography Website</h1>
+
+  <header class="site-header">
+    <div class="container">
+      <h1 class="brand">Rahul Photography</h1>
+      <nav class="nav">
+        <a href="#gallery">Gallery</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h2>Capturing moments, one frame at a time</h2>
+          <p class="lead">Simple, clean photography portfolio to showcase your best work.</p>
+        </div>
+        <div class="hero-image">
+          <img src="data:image/jpeg;base64,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" alt="Camera on table">
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="section">
+      <div class="container">
+        <h3 class="section-title">Gallery</h3>
+
+        <div class="grid gallery-grid">
+          <!-- Repeat each card: thumbnail links to larger image via anchor target -->
+          <a href="#img1" class="thumb">
+            <img src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?w=600&q=60&auto=format&fit=crop" alt="Photo 1">
+          </a>
+
+          <a href="#img2" class="thumb">
+            <img src="https://cdn.pixabay.com/photo/2025/07/14/16/59/kananaskis-9714444_640.jpg" alt="Photo 2">
+          </a>
+
+          <a href="#img3" class="thumb">
+            <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=600&q=60&auto=format&fit=crop" alt="Photo 3">
+          </a>
+
+          <a href="#img4" class="thumb">
+            <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=600&q=60&auto=format&fit=crop" alt="Photo 4">
+          </a>
+
+          <a href="#img5" class="thumb">
+            <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600&q=60&auto=format&fit=crop" alt="Photo 5">
+          </a>
+
+          <a href="#img6" class="thumb">
+            <img src="https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f?w=600&q=60&auto=format&fit=crop" alt="Photo 6">
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lightbox targets (CSS-only using :target) -->
+    <div id="img1" class="lightbox" aria-hidden="true">
+      <a class="close" href="#gallery" aria-label="Close">✕</a>
+      <img src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?w=1600&q=80&auto=format&fit=crop" alt="Photo 1 large">
+    </div>
+
+    <div id="img2" class="lightbox" aria-hidden="true">
+      <a class="close" href="#gallery" aria-label="Close">✕</a>
+      <img src="https://cdn.pixabay.com/photo/2025/07/14/16/59/kananaskis-9714444_640.jpg" alt="Photo 2 large">
+    </div>
+
+    <div id="img3" class="lightbox" aria-hidden="true">
+      <a class="close" href="#gallery" aria-label="Close">✕</a>
+      <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=1600&q=80&auto=format&fit=crop" alt="Photo 3 large">
+    </div>
+
+    <div id="img4" class="lightbox" aria-hidden="true">
+      <a class="close" href="#gallery" aria-label="Close">✕</a>
+      <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1600&q=80&auto=format&fit=crop" alt="Photo 4 large">
+    </div>
+
+    <div id="img5" class="lightbox" aria-hidden="true">
+      <a class="close" href="#gallery" aria-label="Close">✕</a>
+      <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1600&q=80&auto=format&fit=crop" alt="Photo 5 large">
+    </div>
+
+    <div id="img6" class="lightbox" aria-hidden="true">
+      <a class="close" href="#gallery" aria-label="Close">✕</a>
+      <img src="https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f?w=1600&q=80&auto=format&fit=crop" alt="Photo 6 large">
+    </div>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container">
+        <h3 class="section-title">About</h3>
+        <p class="muted">I’m a photographer who loves natural light and candid moments. This small portfolio highlights a selection of my favourite shots — landscapes, street, and portraits. Available for commissions.</p>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h3 class="section-title">Contact</h3>
+        <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
+        <p>Instagram: <a href="https://instagram.com/" target="_blank" rel="noopener">@yourhandle</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 Your Name Photography</p>
+    </div>
+  </footer>
 </body>
 </html>
