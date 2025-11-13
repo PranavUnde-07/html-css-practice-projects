@@ -1,6 +1,92 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f5f5f5;
+/* Simple, responsive tribute page styles */
+
+:root{
+  --bg: #f7f9fc;
+  --card: #ffffff;
+  --text: #0f1724;
+  --muted: #556064;
+  --accent: #0b6df0;
+  --radius: 10px;
+}
+
+/* Basic reset */
+*{box-sizing:border-box;
+  margin:0;
+  padding:0}
+html,body{height:100%;
+  font-family:Arial, Helvetica, sans-serif;
+  background:var(--bg);
+  color:var(--text)}
+a{color:var(--accent);
+  text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* Page container */
+.container{
+  max-width:900px;
+  margin:28px auto;
+  padding:18px;
+}
+
+/* Header / hero */
+.hero{
+  text-align:center;
+  background:var(--card);
+  padding:20px;
+  border-radius:var(--radius);
+  box-shadow:0 6px 18px rgba(15,22,36,0.06);
+  margin-bottom:18px;
+}
+.portrait{
+  width:140px;
+  height:140px;
+  border-radius:8px;
+  object-fit:cover;
+  border:3px solid #fff;
+  box-shadow:0 8px 20px rgba(11,30,60,0.06);
+  display:block;
+  margin:0 auto 12px;
+}
+.hero h1{font-size:1.6rem;margin-bottom:6px}
+.subtitle{color:var(--muted);font-size:0.95rem}
+
+/* Sections */
+section{
+  background:var(--card);
+  padding:16px;
+  margin-bottom:14px;
+  border-radius:8px;
+  box-shadow:0 6px 18px rgba(11,30,60,0.04);
+}
+section h2{font-size:1.1rem;
+  color:#08306b;
+  margin-bottom:8px}
+section p{color:var(--muted);
+  line-height:1.6}
+section ul{margin-left:18px;
+  color:var(--text);
+  line-height:1.6}
+
+/* Quote block */
+blockquote{
+  margin:0;
+  padding:12px 14px;
+  border-left:4px solid var(--accent);
+  background:linear-gradient(180deg, rgba(11,109,240,0.03), transparent);
+  border-radius:6px;
+  color:var(--text);
+}
+blockquote cite{display:block;margin-top:8px;color:var(--muted);font-size:0.9rem}
+
+/* Sources / footer */
+footer.sources{font-size:0.95rem}
+footer.sources ul{margin-top:8px;margin-left:18px}
+footer.sources .credit{margin-top:10px;color:var(--muted);font-size:0.9rem}
+
+/* Responsive adjustments */
+@media (max-width:640px){
+  .container{padding:12px;margin:16px auto}
+  .portrait{width:110px;height:110px}
+  hero h1{font-size:1.3rem}
+  section{padding:12px}
 }
