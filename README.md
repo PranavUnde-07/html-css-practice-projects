@@ -23,7 +23,7 @@ As part of my web development learning journey, I wanted to:
 |:-----:|----------------------------|------------------|--------------------------|
 | 01    | Login Form                | ✅ Done          |[Live Demo](https://pranavunde-07.github.io/html-css-practice-projects/01-Login-Form/) |
 | 02    | Survey Form               | ✅ Done          |[Live Demo](https://pranavunde-07.github.io/html-css-practice-projects/02-Survey-Form/)                         |
-| 03    | Tribute Page              | 🔄 In Progress   | —                        |
+| 03    | Tribute Page              | ✅ Done          |[Live Demo](https://pranavunde-07.github.io/html-css-practice-projects/03-Landing-Page/)                        |
 | 04    | Technical Documentation   | ⏳ Planned       | —                        |
 | 05    | Portfolio Page            | ⏳ Planned       | —                        |
 | 06    | Product Landing Page      | ⏳ Planned       | —                        |
